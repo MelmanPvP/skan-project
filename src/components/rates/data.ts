@@ -1,0 +1,43 @@
+const data = [
+    {
+        id: 1,
+        img:'/lamp.svg',
+        color:'yellow',
+        title:'Beginner',
+        description:'Для небольшого исследования',
+        price:799,
+        old_price:1200,
+        price_description:'или 150 ₽/мес. при рассрочке на 24 мес.',
+        first_item:'Безлимитная история запросов',
+        second_item:'Безопасная сделка',
+        third_item:'Поддержка 24/7',
+    },
+    {
+        id: 2,
+        img:'/target.svg',
+        color:'blue',
+        title:'Pro',
+        description:'Для HR и фрилансеров',
+        price:1299,
+        old_price:2600,
+        price_description:'или 279 ₽/мес. при рассрочке на 24 мес.',
+        first_item:'Все пункты тарифа Beginner',
+        second_item:'Экспорт истории',
+        third_item:'Рекомендации по приоритетам',
+    },
+    {
+        id: 3,
+        img:'/laptop.svg',
+        color:'black',
+        title:'Business',
+        description:'Для корпоративных клиентов',
+        price:2379,
+        old_price:3700,
+        price_description:'',
+        first_item:'Все пункты тарифа Pro',
+        second_item:'Безлимитное количество запросов',
+        third_item:'Приоритетная поддержка',
+    },
+]
+
+export default data

@@ -1,0 +1,32 @@
+.blaze-slider{
+  max-width: 1346px;
+  gap:30px;
+  margin-left: 51px;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.blaze-container{
+  //max-width: 1346px;
+  display: flex;
+  align-items: center;
+  button {
+    display: flex;
+    width: 39px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+}
+.blaze-track-container{
+  display: flex;
+  //flex-direction: row;
+  max-width: 1250px;
+}
+.title{
+  font-family: "Ferry Black",sans-serif;
+  font-size: 40px;
+  margin-left: 60px;
+}

@@ -1,0 +1,149 @@
+.signin{
+  width: auto;
+  height: 672px;
+  display: flex;
+}
+.title{
+  font-family: "Ferry Black",sans-serif;
+  font-size: 40px;
+  width: 817px;
+  height: auto;
+  overflow-wrap: break-word;
+}
+.form_wrapper{
+  width: 480px;
+  height:578px;
+  margin-right: 101px;
+}
+.info{
+  //display: flex;
+  //width: 800px;
+  //flex-direction: column;
+  margin-left: 30px;
+}
+.img{
+  width: 321px;
+  margin-left: 112px;
+  margin-top: 14px;
+}
+.lock{
+  z-index: 2;
+  position: absolute;
+}
+.form{
+  width: 429px;
+  height: auto;
+  z-index: 0;
+  border: 1px solid #C7C7C7;
+  margin-top: 55px;
+  margin-left: 49px;
+  border-radius: 10px;
+}
+.options{
+  width: 379px;
+  height: 29px;
+  display: flex;
+  gap:15px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@mixin button{
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+.log_in{
+  width: 151px;
+  cursor: pointer;
+ @include button;
+  color: #029491;
+  border-bottom: 2px solid #029491;
+}
+.register{
+  width: 213px;
+  background: transparent;
+  border-bottom: 2px solid #C7C7C7;
+  @include button
+
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap:20px;
+}
+@mixin form{
+  display: flex;
+  flex-direction: column;
+  width: 379px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #949494;
+  font-family: Inter,sans-serif;
+}
+@mixin input{
+  height: 43px;
+  border-radius: 5px;
+  border: 1px solid #C7C7C7;
+  margin-top: 15px;
+}
+.login{
+ @include form;
+  input{
+   @include input;
+  }
+}
+.password{
+  @include form;
+  input{
+    @include input;
+  }
+}
+.button{
+  cursor: pointer;
+  background: #5970FF;
+  width: 379px;
+  height: 59px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.disabled{
+  opacity: 0.5;
+  cursor:auto;
+}
+.restore{
+  color: #5970FF;
+  text-decoration: underline;
+  font-family: Inter,sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 139px;
+}
+.variants_text{
+  color: #949494;
+  font-family: Inter,sans-serif;
+  margin-left: 25px;
+}
+.variants{
+  margin-left: 25px;
+  margin-top: 15px;
+  img {
+    cursor: pointer;
+  }
+}
+

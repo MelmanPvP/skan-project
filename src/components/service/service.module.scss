@@ -1,0 +1,43 @@
+//*{
+//  outline: 1px solid black;
+//}
+.service{
+  max-width: 1320px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  img{
+    max-width: 485px;
+  }
+}
+.info{
+  margin-left: 60px;
+}
+.title{
+  font-family: "Ferry Black",sans-serif;
+  font-size: 60px;
+  width: 743px;
+  height: auto;
+  overflow-wrap: break-word;
+}
+.text{
+  font-family: Inter,sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 534px;
+  margin-top: 20px;
+}
+.button{
+  background: #5970FF;
+  color: white;
+  font-family: Inter,sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  width: 335px;
+  height: 59px;
+  border: none;
+  margin-top: 70px;
+}
