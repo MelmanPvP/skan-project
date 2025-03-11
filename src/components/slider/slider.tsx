@@ -25,6 +25,10 @@ export default function Slider () {
         all: {
             slidesToShow: 3,
         },
+        '(min-width:375px)': {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        }
     })
     return (
         <>

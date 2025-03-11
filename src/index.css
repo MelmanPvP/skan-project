@@ -1,13 +1,4 @@
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-@font-face {
-  font-family: "Ferry Black";
-  src: url("./fonts/ferry-black.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}

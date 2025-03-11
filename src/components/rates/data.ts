@@ -11,6 +11,9 @@ const data = [
         first_item:'Безлимитная история запросов',
         second_item:'Безопасная сделка',
         third_item:'Поддержка 24/7',
+        // yellow:true,
+        // blue:false,
+        // black:false,
     },
     {
         id: 2,
@@ -24,6 +27,9 @@ const data = [
         first_item:'Все пункты тарифа Beginner',
         second_item:'Экспорт истории',
         third_item:'Рекомендации по приоритетам',
+        // yellow:false,
+        // blue:true,
+        // black:false,
     },
     {
         id: 3,
@@ -37,6 +43,9 @@ const data = [
         first_item:'Все пункты тарифа Pro',
         second_item:'Безлимитное количество запросов',
         third_item:'Приоритетная поддержка',
+        // yellow: false,
+        // blue:false,
+        // black:true
     },
 ]
 

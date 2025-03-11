@@ -1,0 +1,22 @@
+.button{
+  width: 235px;
+  height: 60px;
+  background: #5970FF;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  @media screen and (max-width: 375px) {
+    margin-top: 10px;
+   margin-bottom: 30px;
+  }
+}

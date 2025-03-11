@@ -8,7 +8,7 @@ export default function Footer(){
                              +7 495 771 21 11
                            &nbsp;&nbsp;info@skan.ru
                        </span>
-                <span className={css.copyright}>Copyright. 2024</span>
+                <span className={css.copyright}>Copyright. 2025</span>
             </div>
 
 

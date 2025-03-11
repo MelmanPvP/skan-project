@@ -9,26 +9,57 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
-  img{
+  .img1{
     max-width: 485px;
+    @media screen  and (max-width: 375px){
+      display: none;
+    }
+  }
+  .img2{
+    max-width: 277px;
+    margin: auto;
+    @media screen  and (min-width: 376px){
+      display: none;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    max-width: 350px;
+    flex-direction: column;
   }
 }
 .info{
   margin-left: 60px;
+  @media screen and (max-width: 375px) {
+   margin-left: 10px;
+
+  }
 }
 .title{
-  font-family: "Ferry Black",sans-serif;
+  font-family:  Ferry,sans-serif;
   font-size: 60px;
   width: 743px;
+  font-weight: 900;
   height: auto;
   overflow-wrap: break-word;
+  @media screen and (max-width: 375px) {
+
+    width: 350px;
+    font-size: 28px;
+    //height: 136px;
+  }
 }
 .text{
   font-family: Inter,sans-serif;
   font-weight: 400;
   font-size: 20px;
-  width: 534px;
+  max-width: 534px;
   margin-top: 20px;
+  @media screen and (max-width: 375px) {
+    max-width: 327px;
+    margin-top: 30px;
+
+    font-size: 18px;
+  }
 }
 .button{
   background: #5970FF;

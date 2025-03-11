@@ -1,8 +1,16 @@
 .rates{
-  max-width: 1320px;
+  max-width: fit-content;
   max-height: 540px;
-  //display:flex;
-  //flex-direction: row;
+  display:flex;
+  flex-direction: row;
+  gap:38px;
+  margin-left:auto;
+  margin-right: auto;
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+    max-height: 1650px;
+
+  }
 }
 .title{
   font-family: "Ferry Black",sans-serif;

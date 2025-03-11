@@ -4,6 +4,9 @@
   margin-left: 51px;
   flex-direction: row;
   margin-top: 70px;
+  @media screen and (max-width: 375px) {
+    margin: auto;
+  }
 }
 .blaze-container{
   //max-width: 1346px;
@@ -29,4 +32,7 @@
   font-family: "Ferry Black",sans-serif;
   font-size: 40px;
   margin-left: 60px;
+  @media screen and (max-width: 375px) {
+    margin-left: 14px;
+  }
 }
