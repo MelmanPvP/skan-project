@@ -121,28 +121,7 @@ hr{
   transform: translateY(-12px) rotate(-45deg);
 }
 @media screen and (max-width: 375px) {
-  .open{
-    .mobile_buttons {
-      display: flex;
-      flex-direction: column;
-      position:relative;
-      top: 80px;
-      right: 100px;
-      width: 100%;
-      padding: 20px;
-      background: #029491;
-    }
-    .mobile_links {
-      display: flex;
-      flex-direction: column;
-      position:relative;
-      top: 80px;
-      right: 0;
-      width: 100%;
-      height: auto;
-      padding: 20px;
-      background: #029491;
-    }
+  .open {
     .mobile_menu {
       position: fixed;
       top: 0;
@@ -163,36 +142,33 @@ hr{
       transform: translateY(0);
     }
 
-    .mobile_links,
+    .mobile_links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      position:relative;
+      top: 75px;
+      right: 0;
+      width: 100%;
+      background: #029491;
+
+    }
     .mobile_buttons {
       display: flex;
       flex-direction: column;
       gap: 20px;
-    }
-    //.mobile_links {
-    //  display: flex;
-    //  gap: 20px;
-    //  margin: auto;
-    //}
-    //
-    //.mobile_buttons{
-    //  gap: 10px;
-    //  align-items: center;
-    //}
-  }
-  //.mobile_links.open,
-  //.mobile_buttons.open {
-  //  display: flex;
-  //  flex-direction: column;
-  //  position: absolute;
-  //  top: 80px;
-  //  right: 0;
-  //  width: 100%;
-  //  padding: 20px;
-  //  background: #029491;
-  //}
+      align-items: center; // Выравнивание по центру
+      position:relative;
+      top: 80px;
+      right: 0;
+      width: 100%;
+      background: #029491;
 
+    }
+  }
 }
+
 .mobile_links{
   display: none;
   @media screen and (max-width: 375px) {
