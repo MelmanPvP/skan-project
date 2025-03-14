@@ -2,18 +2,29 @@
   width: auto;
   height: 672px;
   display: flex;
+  @media screen and (max-width: 375px){
+    flex-direction: column;
+  }
 }
 .title{
   font-family: "Ferry Black",sans-serif;
   font-size: 40px;
   width: 817px;
+  font-weight: 900;
   height: auto;
   overflow-wrap: break-word;
+  @media screen and (max-width: 375px) {
+    font-size: 22px;
+  }
 }
 .form_wrapper{
   width: 480px;
   height:578px;
   margin-right: 101px;
+  @media screen and (max-width: 375px) {
+    width: 335px;
+    height: auto;
+  }
 }
 .info{
   //display: flex;
@@ -25,6 +36,9 @@
   width: 321px;
   margin-left: 112px;
   margin-top: 14px;
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
 }
 .lock{
   z-index: 2;
@@ -38,6 +52,13 @@
   margin-top: 55px;
   margin-left: 49px;
   border-radius: 10px;
+
+  @media screen and (max-width: 375px) {
+    width: 335px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 .options{
   width: 379px;
@@ -47,6 +68,9 @@
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: 375px) {
+     width: 305px;
+  }
 }
 @mixin button{
   background: transparent;
@@ -62,13 +86,18 @@
  @include button;
   color: #029491;
   border-bottom: 2px solid #029491;
+  @media screen and (max-width: 375px) {
+    width: 103px;
+  }
 }
 .register{
   width: 213px;
   background: transparent;
   border-bottom: 2px solid #C7C7C7;
-  @include button
-
+  @include button;
+  @media screen and (max-width: 375px) {
+    width: 182px;
+  }
 }
 .inputs{
   display: flex;
@@ -84,6 +113,9 @@
   margin-right: auto;
   color: #949494;
   font-family: Inter,sans-serif;
+  @media screen and (max-width: 375px) {
+    width: 305px;
+  }
 }
 @mixin input{
   height: 43px;
@@ -120,6 +152,9 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  @media screen and (max-width: 375px) {
+    width: 305px;
+  }
 }
 .disabled{
   opacity: 0.5;

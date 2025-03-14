@@ -25,14 +25,18 @@ export function Header() {
             </div>
             <div className={`${css.mobile_menu} ${isOpen ? css.open : ""}`}>
             <ul className={`${css.mobile_links} ${isOpen ? css.open : ""}`}>
-                <li className={css.mobile_links_title}><a href='#'>Главная</a></li>
-                <li className={css.mobile_links_title}><a href='#'>Тарифы</a></li>
-                <li className={css.mobile_links_title}><a href='#'>FAQ</a></li>
+                <Link className={css.mobile_link} to='/'>
+                <li className={css.mobile_links_title}><a className={css.mobile_links_title} href='#'>Главная</a></li>
+                </Link>
+                <li className={css.mobile_links_title}><a className={css.mobile_links_title} href='#'>Тарифы</a></li>
+                <li className={css.mobile_links_title}><a className={css.mobile_links_title} href='#'>FAQ</a></li>
             </ul>
 
             <div className={`${css.mobile_buttons} ${isOpen ? css.open : ""}`}>
                 <button disabled className={css.mobile_register}>Зарегистрироваться</button>
+                <Link to='/signin'>
                 <button className={css.mobile_signin}>Войти</button>
+                </Link>
             </div>
             </div>
             <div className={`${css.burgermenu} ${isOpen ? css.open : ""}`} onClick={toggleMenu}>
